@@ -1,0 +1,17 @@
+CineMoco Software Versions:
+
+1.x - first generation built for dolly moves
+2.0 - pan, tilt, slide, dolly control. Improved user interface.
+2.1 - adds daisy chaining and ability to control two and three axis moves from one controller. Some setups do no work properly. Some controllers with 2.1 software have       issues with the USB driver and need to be updated by Cinetics.
+2.2 - stable multi axis control
+2.3 - minor code fix
+2.4 - fixes bug with wrong distance in high motor speed
+    - adds all motor setting to can set keyframes for or move all motors at the same time
+    - run mode move increments set to 1cm
+    - adds Panasonic and Other cam type
+2.5 - Adds multi-axis moves in run mode, previously daisy chaining several controllers was restricted to keyframe mode.
+    - Speed setting in the motor menu saves properly. (Note: this is actually setting the microstepping for the motor, low = 1/8 step, med = 1/4 step, and high is 1/2        step.)
+    - Bounce mode renamed to Loop. This enables the motors to loop a move continuously.
+    - Setting for Sony camera added. Canon, Nikon, Panasonic, Sony and Other settings enable the camera trigger to operate properly for different camera makes.
+    - Bug fixed where master motor would not move after setting keyframes with the all motors function.
+    - Bug fixed where motor distance would not change properly in run mode. 

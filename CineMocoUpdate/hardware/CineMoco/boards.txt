@@ -1,0 +1,22 @@
+
+
+##############################################################
+
+mega2560c.name=miniE cineMoco
+
+mega2560c.upload.protocol=stk500
+mega2560c.upload.maximum_size=258048
+mega2560c.upload.speed=57600
+
+mega2560c.bootloader.low_fuses=0xFF
+mega2560c.bootloader.high_fuses=0xD8
+mega2560c.bootloader.extended_fuses=0xFD
+mega2560c.bootloader.path=atmega
+mega2560c.bootloader.file=ATmegaBOOT_168_mega2560_miniE2M.hex
+mega2560c.bootloader.unlock_bits=0x3F
+mega2560c.bootloader.lock_bits=0x0F
+
+mega2560c.build.mcu=atmega2560
+mega2560c.build.f_cpu=16000000L
+mega2560c.build.core=arduino
+mega2560c.build.variant=mega
